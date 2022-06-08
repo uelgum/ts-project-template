@@ -1,0 +1,28 @@
+{
+  "name": "ts-lib-template",
+  "version": "1.0.0",
+  "description": "Eine Vorlage für TypeScript-Projekte.",
+  "main": "./build/index.js",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc",
+    "clean": "rimraf ./build",
+    "build": "rimraf ./build && babel --extensions \".ts\" -d ./build ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uelgum/ts-lib-template.git"
+  },
+  "author": "Wlad G. Gumenyuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uelgum/ts-lib-template/issues"
+  },
+  "homepage": "https://github.com/uelgum/ts-lib-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "rimraf": "^3.0.2"
+  }
+}
