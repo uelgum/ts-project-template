@@ -7,7 +7,7 @@
   "scripts": {
     "typecheck": "tsc",
     "clean": "rimraf ./build",
-    "build": "rimraf ./build && babel --extensions \".ts\" -d ./build ./src"
+    "transpile": "babel --extensions \".ts\" -d ./build ./src"
   },
   "author": "Wlad G. Gumenyuk",
   "license": "MIT",
