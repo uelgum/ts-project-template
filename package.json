@@ -5,9 +5,10 @@
   "main": "./build/index.js",
   "private": true,
   "scripts": {
-    "typecheck": "tsc",
     "clean": "rimraf ./build",
-    "transpile": "babel --extensions \".ts\" -d ./build ./src"
+    "typecheck": "tsc",
+    "transpile": "babel --extensions \".ts\" -d ./build ./src",
+    "build": "npm run clean && npm run typecheck && npm run transpile"
   },
   "author": "Wlad G. Gumenyuk",
   "license": "MIT",
