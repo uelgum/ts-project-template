@@ -1,7 +1,7 @@
 {
   "name": "ts-project-template",
   "version": "1.0.0",
-  "description": "Eine Vorlage für TypeScript-Projekte.",
+  "description": "",
   "main": "./build/index.js",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "transpile": "babel --extensions \".ts\" -d ./build ./src",
     "build": "npm run clean && npm run typecheck && npm run transpile"
   },
-  "author": "Wlad G. Gumenyuk",
-  "license": "MIT",
+  "author": "",
+  "license": "",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
