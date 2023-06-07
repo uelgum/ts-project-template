@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./build",
+    "build": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}
